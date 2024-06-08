@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding-top: 60px; /* Adjust for the top navigation bar */
+  }
+  
+  .top-nav {
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    z-index: 1000;
+  }
+  
+  #search-bar {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+  }
+  
+  .top-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .top-nav ul li {
+    margin-left: 20px;
+  }
+  
+  .top-nav ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .top-nav ul li a:hover {
+    background-color: #111;
+  }
+  
+  .carousel {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 60px; /* Adjust for the top navigation bar */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #949494;
+  }
+  
+  .carousel-slide {
+    display: none;
+    text-align: center;
+    width: 50%; /* Set width to 50% */
+  }
+  
+  .carousel-slide img {
+    width: 100%; /* Use 100% of the parent container's width */
+    height: 40vh; /* Set height to 40% of the viewport height */
+    object-fit: contain; /* Ensure the image fits within the given dimensions without cropping */
+  }
+  
+  .carousel-content {
+    text-align: center;
+    margin-top: 10px; /* Space between image and content */
+  }
+  
+  .btn {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .btn:hover {
+    background-color: #ff4500;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 20px auto; /* Center align and adjust for the top navigation bar */
+  }
+  
+  #results {
+    margin-top: 20px;
+  }
+  
+  .result-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .result-item:last-child {
+    border-bottom: none;
+  }
